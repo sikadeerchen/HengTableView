@@ -66,7 +66,7 @@
         }
         
 //        //下面的都不起作用？？？？
-//        cell.contentView.backgroundColor = (indexPath.row%2)==0 ? [UIColor whiteColor] : [UIColor yellowColor];
+        cell.contentView.backgroundColor = (indexPath.row%2)==0 ? [UIColor whiteColor] : [UIColor yellowColor];
         
         UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         [button setTitle:@"点击选中" forState:UIControlStateNormal];
